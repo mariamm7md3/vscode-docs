@@ -1,4 +1,4 @@
----
+
 Order: 9
 Area: cpp
 TOCTitle: Editing
@@ -52,13 +52,12 @@ To use a different version of clang-format than the one that ships with the exte
 For example, on the Windows platform:
 
 ```json
-  "C_Cpp.clang_format_path": "C:\\Program Files (x86)\\LLVM\\bin\\clang-format.exe"
+  "Cogram Files (x86)\\LLVM\\bin\\clang-format.exe"
 ```
 
 ### Enhanced semantic colorization
 
 When IntelliSense is enabled, the Visual Studio Code C/C++ extension supports semantic colorization. See [Enhanced colorization](/docs/cpp/colorization-cpp.md) for more details about setting colors for classes, functions, variables and so on.
-
 ### Quick Info
 
 You can hover over a symbol to see an inline view of its definition:
